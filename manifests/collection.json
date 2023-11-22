@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/manifest.json",
     "label" : "My first manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/manifest3.json",
+    "label" : "My first manifest"
   } ]
 }
