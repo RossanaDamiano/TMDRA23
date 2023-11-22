@@ -1,0 +1,66 @@
+{
+  "id" : "https://RossanaDamiano.github.io/TMDRA23/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in RossanaDamiano/TMDRA23 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2376,
+    "id" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage/canvas/",
+    "label" : {
+      "none" : [ "testimage" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 75,
+              "height" : 50
+            }, {
+              "width" : 149,
+              "height" : 99
+            }, {
+              "width" : 297,
+              "height" : 198
+            }, {
+              "width" : 594,
+              "height" : 396
+            }, {
+              "width" : 1188,
+              "height" : 792
+            }, {
+              "width" : 2376,
+              "height" : 1584
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2376,
+            "@id" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1584
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2376,
+          "id" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1584
+        },
+        "target" : "https://RossanaDamiano.github.io/TMDRA23/images/testimage/canvas/"
+      } ]
+    } ],
+    "height" : 1584
+  } ]
+}
