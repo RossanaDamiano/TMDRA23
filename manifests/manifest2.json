@@ -1,0 +1,76 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "My first manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "a very old manuscript and a 20th century pic",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "unknown copyst",
+  "sequences" : [ {
+    "@id" : "http://197b086a-cb85-4c23-9970-8b2f721b17ac",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://8596fedc-c8c7-4239-aef9-851f480ff1c7",
+      "@type" : "sc:Canvas",
+      "label" : "First canvas",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ea47d35c-0869-45bd-9742-3f2a70de0efe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://8596fedc-c8c7-4239-aef9-851f480ff1c7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://98e10fb1-196a-4b36-bbcc-eb292af02fd2",
+      "@type" : "sc:Canvas",
+      "label" : "Second canvas",
+      "height" : 3264,
+      "width" : 4896,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8ea2b6d2-68cf-402f-aa23-b8e8ed0cf936",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dan-freeman-pL7sl2tiOts-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dan-freeman-pL7sl2tiOts-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 4896
+        },
+        "on" : "http://98e10fb1-196a-4b36-bbcc-eb292af02fd2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
