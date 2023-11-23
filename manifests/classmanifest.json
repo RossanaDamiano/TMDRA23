@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/classmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Example manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "an example manifest with silly images",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Rossana Damiano",
+  "sequences" : [ {
+    "@id" : "http://a838a630-1837-4f2c-9dc4-9f59684ce8d0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://75c14092-13ba-49bb-b324-77e0c1589454",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b8496aaf-0e2b-4b39-a870-a13f35a631fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gatto_202311/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gatto_202311",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://75c14092-13ba-49bb-b324-77e0c1589454"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://920701a1-6aa2-4db7-8e3e-36cc5e6a0365",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3264,
+      "width" : 4896,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3ab5fcaa-84ea-4d2f-97a8-6cc25579d480",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/dan-freeman-pL7sl2tiOts-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/dan-freeman-pL7sl2tiOts-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3264,
+          "width" : 4896
+        },
+        "on" : "http://920701a1-6aa2-4db7-8e3e-36cc5e6a0365"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
