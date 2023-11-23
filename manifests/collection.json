@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/manifest2.json",
     "label" : "My first manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/classmanifest.json",
+    "label" : "Example manifest"
   } ]
 }
