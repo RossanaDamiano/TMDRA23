@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 22,
+    "height" : 16
+  }, {
+    "width" : 44,
+    "height" : 32
+  }, {
+    "width" : 87,
+    "height" : 64
+  }, {
+    "width" : 174,
+    "height" : 128
+  }, {
+    "width" : 348,
+    "height" : 256
+  }, {
+    "width" : 695,
+    "height" : 512
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 695,
+  "@id" : "https://RossanaDamiano.github.io/TMDRA23/images/seal",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 512
+}
