@@ -25,5 +25,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/tabletmanifest.json",
     "label" : "Cuneiform Tablet: Ur III Administrative Text"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/TMDRA_manifest.json",
+    "label" : "an example manifest for TMDRA"
   } ]
 }
