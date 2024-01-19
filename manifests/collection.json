@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/classmanifest.json",
     "label" : "Example manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/tabletmanifest.json",
+    "label" : "Cuneiform Tablet: Ur III Administrative Text"
   } ]
 }
