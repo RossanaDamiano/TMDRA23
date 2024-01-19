@@ -1,0 +1,285 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/tabletmanifest.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "Harvard Art Museums",
+  "description" : "Small square shaped clay tablet with cuneiform writing. The tablet is inscribed on obverse and reverse with text written in Sumerian language. There are seal impressions over the text on both sides. The text is a typical administrative document from the Ur III dynasty and it records the receipt of reed bundles for animal fodder. The inscription on the seal indicates that its owner was Alulu, the same official receiving the reeds in the text.The tablet is dated to 9th month of the first year of the reign of Ibbi-Suen (c. 2028-2004 B.C.E.) and probably comes from Umma (?).\r\n\r\nText reads:\r\n1(geš2) 3(u) sa gi zi / gu-kilib-ba 5 sa-ta / šag4-gal udu niga sa2-dug4 / ki Ur-e2-mah-ta / kišib A-lu5-lu5 / iti {d}Li9-si4 / mu {d}I-bi2-{d}Suen lugal\r\n\r\nSeal impression: A-lu5-lu5 / dumu Inim-{d}Šara2 / kurušda {d}Šara2-ka\r\n\r\n90 bundles of fresh reeds / in each bale are 5 bundles / fodder for the fattened sheep, the regular offerings / (received) from Ur-Emah / Seal of Alulu; month of Lisi, the year Ibbi-Suen (became) king.\r\n\r\nSeal impression: Alulu / son of Inim-Šara / animal fattener of the god Šara\r\n",
+  "label" : "Cuneiform Tablet: Ur III Administrative Text",
+  "logo" : {
+    "@id" : "https://ids.lib.harvard.edu/ids/iiif/437958013/full/!800,800/0/default.jpg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://ids.lib.harvard.edu/ids/iiif/437958013",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "metadata" : [ {
+    "label" : "Date",
+    "value" : "c. 2028-2004 BCE"
+  }, {
+    "label" : "Classification",
+    "value" : "Tablets"
+  }, {
+    "label" : "Credit Line",
+    "value" : "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Catharine W. Pierce"
+  }, {
+    "label" : "Object Number",
+    "value" : "1938.94"
+  }, {
+    "label" : "Medium",
+    "value" : "Clay"
+  }, {
+    "label" : "Technique",
+    "value" : "Impressed"
+  }, {
+    "label" : "Dimensions",
+    "value" : "4.6 x 4.3 x 1.6 cm (1 13/16 x 1 11/16 x 5/8 in.)"
+  }, {
+    "label" : "Provenance",
+    "value" : "Catharine W. Pierce, Cambridge, MA; gift to Fogg Art Museum, 1938."
+  } ],
+  "rendering" : {
+    "@id" : "https://www.harvardartmuseums.org/collections/object/292034",
+    "format" : "text/html",
+    "label" : "Full record view"
+  },
+  "sequences" : [ {
+    "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/sequence/normal",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534355",
+      "@type" : "sc:Canvas",
+      "height" : 1010,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534355",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534355",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534355/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1010,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534355",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 1024
+        }
+      } ],
+      "label" : "1",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534355",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 1024
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534352",
+      "@type" : "sc:Canvas",
+      "height" : 453,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534352",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534352",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534352/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 453,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534352",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 1024
+        }
+      } ],
+      "label" : "2",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534352",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 1024
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534353",
+      "@type" : "sc:Canvas",
+      "height" : 1024,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534353",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534353",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534353/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1024,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534353",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 328
+        }
+      } ],
+      "label" : "3",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534353",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 328
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534354",
+      "@type" : "sc:Canvas",
+      "height" : 971,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534354",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534354",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534354/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 971,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534354",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 1024
+        }
+      } ],
+      "label" : "4",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534354",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 1024
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534356",
+      "@type" : "sc:Canvas",
+      "height" : 1024,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534356",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534356",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534356/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1024,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534356",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 456
+        }
+      } ],
+      "label" : "5",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534356",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 456
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534357",
+      "@type" : "sc:Canvas",
+      "height" : 1024,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-43534357",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-43534357",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534357/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1024,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534357",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 429
+        }
+      } ],
+      "label" : "6",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/43534357",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 429
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-20677431",
+      "@type" : "sc:Canvas",
+      "height" : 1024,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-20677431",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-20677431",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/20677431/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1024,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/20677431",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 715
+        }
+      } ],
+      "label" : "7",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/20677431",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 715
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-20677432",
+      "@type" : "sc:Canvas",
+      "height" : 1024,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/annotation/anno-20677432",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/292034/canvas/canvas-20677432",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/20677432/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1024,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/20677432",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 715
+        }
+      } ],
+      "label" : "8",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/292034/list/20677432",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 715
+    } ],
+    "viewingHint" : "individuals"
+  } ],
+  "thumbnail" : {
+    "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534355/full/!170,170/0/default.jpg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://ids.lib.harvard.edu/ids/iiif/43534355",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "within" : "https://www.harvardartmuseums.org/collections"
+}
