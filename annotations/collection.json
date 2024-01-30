@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://RossanaDamiano.github.io/TMDRA23/annotations/annotation_example.json", "https://RossanaDamiano.github.io/TMDRA23/annotations/annotationsTMDRA.json", "https://RossanaDamiano.github.io/TMDRA23/annotations/plots_TMDRA_exam_Lanza.json", "https://RossanaDamiano.github.io/TMDRA23/annotations/manifest_rossana.json" ],
+  "otherContent" : [ "https://RossanaDamiano.github.io/TMDRA23/annotations/annotation_example.json", "https://RossanaDamiano.github.io/TMDRA23/annotations/annotationsTMDRA.json", "https://RossanaDamiano.github.io/TMDRA23/annotations/plots_TMDRA_exam_Lanza.json" ],
   "@id" : "https://RossanaDamiano.github.io/TMDRA23/annotations/collection.json",
   "label" : "All annotations loaded in RossanaDamiano/TMDRA23 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
