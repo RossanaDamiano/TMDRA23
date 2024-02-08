@@ -29,5 +29,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/TMDRA_manifest.json",
     "label" : "an example manifest for TMDRA"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/AnnotatedManifestLanza.json",
+    "label" : null
   } ]
 }
