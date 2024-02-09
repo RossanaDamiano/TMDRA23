@@ -33,5 +33,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/AnnotatedManifestLanza.json",
     "label" : null
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RossanaDamiano.github.io/TMDRA23/manifests/tabletManifest.json",
+    "label" : "Cuneiform writing"
   } ]
 }
